@@ -1,0 +1,19 @@
+plugins {
+	id 'war'
+	id 'org.gretty' version '2.2.0'
+}
+
+// JDK 8
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+
+    mavenCentral()
+
+}
+
+dependencies {
+
+	providedCompile 'javax.servlet:javax.servlet-api:3.1.0'
+}
